@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Моё портфолио</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #111;
+            color: white;
+            text-align: center;
+        }
+        .card {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h1>Айбек</h1>
+    <p>Начинающий веб-разработчик</p>
+
+    <h2>Навыки</h2>
+    <p>HTML, CSS</p>
+
+    <h2>Контакты</h2>
+    <p>Telegram: @yourname</p>
+</div>
+
+</body>
+</html>
