@@ -2,30 +2,80 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Моё портфолио</title>
+    <title>Айбек | Веб-разработчик</title>
     <style>
         body {
-            font-family: Arial;
-            background: #111;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
             color: white;
-            text-align: center;
         }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 40px 20px;
+            text align: center;
+        }
+
+        .avatar {
+            width: 120px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin: 10px 0;
+        }
+
+        p {
+            color: #ccc;
+        }
+
         .card {
-            margin-top: 50px;
+            background: rgba(255,255,255,0.05);
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 15px
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 15px
+            padding: 10px 20px
+            background: #00c6ff;
+            color: black;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background: #00a3d6;
         }
     </style>
 </head>
 <body>
 
-<div class="card">
+<div class="container">
+
+    <img scr="https://via.placeholder.com/120" class="avatar">
+
     <h1>Айбек</h1>
     <p>Начинающий веб-разработчик</p>
 
-    <h2>Навыки</h2>
-    <p>HTML, CSS</p>
+    <div class="card">
+        <h2>Навыки</h2>
+        <p>HTML, CSS, JavaScript (в процессе)</p>
+    </div>
 
-    <h2>Контакты</h2>
-    <p>Telegram: @yourname</p>
+    <div class="card">
+        <h2>Контакты</h2>
+        <p>Telegram: t.me/klebushek_ab</p>
+        <a href="#" class="btn">Написать мне</a>
+    </div>
+
 </div>
 
 </body>
